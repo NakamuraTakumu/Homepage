@@ -55,10 +55,21 @@ h2 {
 }
 
 .details,
-.links {
+.links,
+.publications {
   margin: 0;
   padding-left: 20px;
   line-height: 1.9;
+}
+
+.paper-title {
+  margin: 0;
+  font-weight: 700;
+}
+
+.paper-meta {
+  margin: 4px 0 0;
+  color: var(--muted);
 }
 
 @media (max-width: 640px) {
